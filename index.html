@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCM Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo/ccm-logo.png" alt="CCM Logo" class="logo" />
+    </header>
+
+    <main>
+      <h1>Welcome to CCM Chatbot</h1>
+      <p class="subheading">Ask anything that you want to know about CCM political party.</p>
+
+      <div class="questions-grid" id="questionsGrid">
+        <button class="question-btn">What is the CCM political party?</button>
+        <button class="question-btn">What are the main goals of the CCM political party?</button>
+        <button class="question-btn">Who is the current leader of the CCM political party?</button>
+        <button class="question-btn">What is the history of the CCM political party?</button>
+        <button class="question-btn">What are the key policies of the CCM political party?</button>
+        <button class="question-btn">What is the role of the CCM political party in Tanzanian politics?</button>
+      </div>
+
+      <div class="chat-area" id="chatArea">
+        <div class="chat-log" id="chatLog"></div>
+        <div class="chatbox">
+          <input type="text" id="chatInput" placeholder="How can I help you today?" />
+          <button class="send-btn" id="sendBtn">Send</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
